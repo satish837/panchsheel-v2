@@ -9771,6 +9771,9 @@ body.active {
 	width: 100%;
 	transition: all 0.5s;
 }
+.gallery ul li a:hover img{
+	transform: scale(1.2);
+}
 .header-links{
 	width: 92%;
 	margin: 0px;
