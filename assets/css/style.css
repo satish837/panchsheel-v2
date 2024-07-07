@@ -9752,7 +9752,7 @@ body.active {
 	display: block;
 	transition: 0.3s all;
 	position: relative;
-	cursor: url(https://panchsheel.netlify.app/cursor.png), auto;
+	cursor: url("https://panchshil.netlify.app/assets/images/gallery/cursor.png"), auto;
 }
 .gallery ul li ul li a::after{
 	content: "";
