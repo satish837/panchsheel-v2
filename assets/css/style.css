@@ -9753,6 +9753,7 @@ body.active {
 	transition: 0.3s all;
 	position: relative;
 	cursor: url("https://panchshil.netlify.app/assets/images/gallery/cursor.png"), auto;
+	overflow: hidden;
 }
 .gallery ul li ul li a::after{
 	content: "";
@@ -9768,6 +9769,7 @@ body.active {
 }
 .gallery ul li a img{
 	width: 100%;
+	transition: all 0.5s;
 }
 .header-links{
 	width: 92%;
