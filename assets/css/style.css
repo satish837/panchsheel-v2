@@ -10498,9 +10498,6 @@ body.active {
 	.spotlight-btm-details{
 		height: auto;
 	}
-	.services__slider .item p {
-		min-height: 210px;
-	}
 }
 
 .nri {
