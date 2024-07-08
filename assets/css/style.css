@@ -9893,7 +9893,7 @@ body.active {
 		width: 100%;
 	}
 	.property__type__block .image img{
-		height: 100%;
+		height: auto;
 	}
 	.property__type__block .info ul li a{
 		white-space: wrap;
