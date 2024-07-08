@@ -10491,6 +10491,9 @@ body.active {
 		margin: 0;
 		padding: auto;
 	}
+	.spotlight-btm-details{
+		height: auto;
+	}
 }
 
 .nri {
