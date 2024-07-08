@@ -745,11 +745,15 @@ body.active {
 	text-align: center;
 }
 .spotlight-btm-details ul li:last-child{
-	text-align: right;
+	text-align: center;
 }
 .spotlight-btm-details ul li:first-child{
-	text-align: left;
+	text-align: center;
 	border-left: none;
+}
+.spotlight-btm-details .slick-slide.slick-current.slick-active.slick-center{
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
 }
 @supports ((-webkit-background-clip: text) or (background-clip: text)) or (-webkit-background-clip: text) {
 	.banner__inner__caption h1 {
@@ -1816,7 +1820,7 @@ body.active {
 	font-family: 'OpenSans';
 	text-decoration: none;
 	color: #000000;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	letter-spacing: 1px;
 	margin-top: 1.5rem;
 	margin: 1rem auto;
@@ -1824,10 +1828,10 @@ body.active {
 
 .tenants__slider .item a span, .services__slider .item a span {
 	display: inline-block;
-	margin-right: 0.8rem;
+	margin-right: 0.3rem;
 }
 .tenants__slider .item a span, .services__slider .item a span svg{
-	width: 100%;
+	width: 80%;
 }
 
 .tenants__slider .slick-dots, .services__slider .slick-dots {
@@ -9787,13 +9791,16 @@ body.active {
 	margin: 0px;
 	padding: 0px;
 }
-.header-links .cat select{
-	width: 100%;
-	background: none;
-	color: #ffffff;
-	border: 1px solid #ffffff;
-	font-size: 1rem;
-	padding: 0.5rem;
+.header-links .cat select {
+    width: 100%;
+    background: url(../images/gallery/drop-down-arrow.png) 92% center no-repeat;
+    background-size: 6%;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+    appearance: none;
+    -webkit-appearance: none;
 }
 .header-links .cat select:focus{
 	outline: none;
@@ -9822,8 +9829,22 @@ body.active {
 .header-links .links ul li a{
 	color: #ffffff;
 	text-decoration: none;
+	padding-bottom: 0.2rem;
+	position: relative;
 }
-  
+.header-links .links ul li a::after{
+	content: "";
+	border-bottom: 2px solid #ffffff;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0;
+	transition: all 0.3s;
+}
+.header-links .links ul li a:hover::after{
+	width: 100%;
+}
 
 
 
