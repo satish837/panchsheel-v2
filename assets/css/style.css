@@ -1804,14 +1804,14 @@ body.active {
 	margin: 0;
 }
 .services__slider .item p {
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	font-family: 'OpenSans';
 	color: #000000;
 	font-weight: normal;
 	margin: 0 0;
 	padding: 0 1rem;
 	line-height: 2;
-	min-height: 122px;
+	min-height: 210px;
 }
 
 .tenants__slider .item a, .services__slider .item a {
@@ -9846,7 +9846,65 @@ body.active {
 	width: 100%;
 }
 
-
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	.header-links{
+		width: 85%;
+	}
+	.header-links .cat{
+		width: 30%;
+	}
+	.header-links .links{
+		width: 70%;
+	}
+	.banner__inner__caption h1{
+		font-size: 3rem;
+	}
+	.banner__inner__caption{
+		width: 100%;
+	}
+	.header-links .links ul li{
+		font-size: 1rem;
+	}
+	.header-links .cat select{
+		font-size: 0.75rem;
+	}
+	.about__inner__more ul li a{
+		font-size: 0.9rem;
+	}
+	.spotlight-btm-details ul li{
+		font-size: 1.2rem;
+		white-space: nowrap;
+	}
+	.about__inner__more{
+		padding-top: 10rem;
+	}
+	.about__inner__more ul{
+		flex-wrap: wrap;
+	}
+	.about__inner__more ul li {
+        text-align: left;
+        margin: 1rem;
+    }
+	.property__type__block::before{
+		width: 100%;
+	}
+	.property__type__block .image img{
+		height: 100%;
+	}
+	.property__type__block .info ul li a{
+		white-space: wrap;
+		align-items: flex-start;
+	}
+	.property__type__block .info ul li a span{
+		margin-top: 0.5rem;
+	}
+	.tenants__slider .item, .services__slider .item h4{
+		font-size: 1.5rem;
+	}
+  }
 
 @media only screen and (max-width: 767px) {
 	html {
@@ -10364,7 +10422,7 @@ body.active {
 		width: 75%;
 	}
 	.header-links .cat{
-		width: 50%;
+		width: 80%;
 	}
 	.banner__inner__caption{
 		width: 100%;
@@ -10380,8 +10438,8 @@ body.active {
 		text-align: center;
 		padding: 1rem 0;
 		margin: 1rem 0;
-		border-top: 2px solid #000000;
-		border-bottom: 2px solid #000000;
+		border-top: none;
+		border-bottom: none;
 	}
 	.spotlight-btm-details ul li:last-child{
 		text-align: center;
@@ -10395,11 +10453,14 @@ body.active {
 	.property{
 		padding: 4rem 0;
 	}
+	.property__type__block .info ul{
+		margin-left: 0;
+	}
 	.property__type__block::before{
 		width: 100%;
 	}
 	.property__type__block .info ul li{
-		margin: 1.5rem 0;
+		margin: 0.5rem;
 	}
 	.tenants__slider .item, .services__slider .item{
 		padding: 2rem 0;

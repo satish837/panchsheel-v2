@@ -648,6 +648,10 @@ $(".services__slider").slick({
   variableWidth: false,
   responsive: [
     {
+      breakpoint: 1024,
+      slidesToShow: 2,
+  },
+    {
         breakpoint: 600,
         settings: "unslick",
     }
@@ -830,8 +834,8 @@ $(".spotlight-btm-details ul").slick({
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 2,
+        slidesToScroll: 1,
       }
     },
     {
@@ -844,8 +848,9 @@ $(".spotlight-btm-details ul").slick({
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode:false,
       }
     }
     // You can unslick at a given breakpoint now by adding:
