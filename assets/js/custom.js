@@ -821,14 +821,14 @@ startProgressbar();
 
 
 $(".spotlight-btm-details ul").slick({
-  slidesToShow: 3,
+  slidesToShow: 1,
   slidesToScroll: 1,
   infinite:true,
   arrows: false,
   dots: false,
   autoplay: true,
   focusOnSelect: true,
-  centerMode:true,
+  centerMode:false,
   centerPadding:'0',
   responsive: [
     {
