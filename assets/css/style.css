@@ -9784,7 +9784,7 @@ body.active {
 	margin: 0px;
 	padding: 0px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
 }
 .header-links .cat{
