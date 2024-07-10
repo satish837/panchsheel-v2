@@ -652,8 +652,7 @@ $(".services__slider").slick({
       slidesToShow: 2,
   },
     {
-        breakpoint: 600,
-        settings: "unslick",
+      slidesToShow: 1,
     }
   ]
 })
