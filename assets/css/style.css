@@ -1804,12 +1804,12 @@ body.active {
 	margin: 0;
 }
 .services__slider .item p {
-	font-size: 0.9rem;
+	font-size: 1.1vw;
 	font-family: 'OpenSans';
 	color: #000000;
 	font-weight: normal;
 	margin: 0 0;
-	padding: 0 1rem;
+	padding: 0 ;
 	line-height: 2;
 	min-height: 115px;
 }
