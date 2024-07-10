@@ -1811,7 +1811,6 @@ body.active {
 	margin: 0 0;
 	padding: 0 ;
 	line-height: 2;
-	min-height: 115px;
 }
 
 .tenants__slider .item a, .services__slider .item a {
@@ -9852,7 +9851,6 @@ body.active {
   and (-webkit-min-device-pixel-ratio: 1) {
 	.services__slider .item p {
 		font-size: 0.7rem;
-		min-height: 160px;
 	}
 	.header-links{
 		width: 85%;
