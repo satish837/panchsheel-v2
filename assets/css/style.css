@@ -1763,7 +1763,7 @@ body.active {
 }
 .tenants__slider .item, .services__slider .item h4{
 	font-size: 1.7vw;
-	font-family: 'OpenSans-bold';
+	font-family: 'OpenSans';
 	color: #000000;
 	font-weight: normal;
 	margin: 1.5rem 0 1rem 0;
