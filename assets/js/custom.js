@@ -649,11 +649,17 @@ $(".services__slider").slick({
   responsive: [
     {
       breakpoint: 1024,
-      slidesToShow: 2,
-  },
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      }
+    },
     {
-      breakpoint: 600,
-      slidesToShow: 1,
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
     }
   ]
 })
