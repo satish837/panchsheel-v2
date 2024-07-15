@@ -703,10 +703,7 @@ body.active {
 	padding: 0.5rem 1rem;
 	color: #fff;
 	text-decoration: none;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-	transition: 0.3s;
+	display: inline-block;
 }
 .banner__inner__caption .cta a:hover{
 	background: #000000;
@@ -10117,13 +10114,12 @@ body.active {
 
 	.about__inner__more ul li {
 		width: 100%;
+		text-align: center;
 	}
 
 	.about__inner__more ul li a {
 		letter-spacing: 1px;
-		-webkit-box-pack: center;
-		-ms-flex-pack: center;
-		justify-content: center;
+		display: inline-block;
 		margin-bottom: 1rem;
 	}
 
